@@ -6,8 +6,8 @@ const changeTime = () => {
   const todaysDate = document.getElementById("currentDate");
   const todaysTime = document.getElementById("currentTime");
 
-  todaysTime.innerHTML = `${time}`;
-  todaysDate.innerHTML = `${day}`;
+  todaysTime.innerHTML = `Current Time: ${time}`;
+  todaysDate.innerHTML = `Current Day: ${day}`;
 };
 
 
